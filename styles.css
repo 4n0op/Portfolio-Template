@@ -1,12 +1,27 @@
 body {
-    background-color: rebeccapurple;
+    background-color: black;
 }
 
 .title {
     text-align: center;
     font-style: italic;
+    text-decoration-color: rgb(255, 255, 255);
 }
 
 .intro {
-    font-family: comic sans ms;
+    font-family: perpetua;
+    color: rgb(255, 255, 255);
+}
+
+.skills {
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contact {
+    color: rgb(255, 255, 255);
 }
