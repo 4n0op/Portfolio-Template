@@ -1,0 +1,12 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.title {
+    text-align: center;
+    font-style: italic;
+}
+
+.intro {
+    font-family: comic sans ms;
+}
