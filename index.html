@@ -21,7 +21,7 @@
         <text></text>
     </div>
     <div class="skills">
-    <ul>
+    <ul id="list">
         <h2 class="wordskills">Skills</h2>
         <li>Machine Learning</li>
         <li>Robotics</li>
@@ -47,3 +47,64 @@
     </div>
 </body>
 </html>
+<!--
+    
+
+    
+    
+    
+    LIGHT AND DARK MODE SWITCH
+
+
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;x
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>  
+    <p>
+      Dark and Light Mode Switch
+    </p>      
+        <h6 class="dmt">Dark Mode is OFF</h6>
+        <button onclick="darkMode()">Dark mode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("dmt");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+          }
+          function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("dmt");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+          }
+        </script>
+      </body>
+    </html>
