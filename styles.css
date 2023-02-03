@@ -37,10 +37,18 @@ body {
     color: black;
 }
 
-/*@media (prefers-color-scheme: dark){
-    body {
-        background-color: #131313;
-        color: white;
-    }
-}
-*/
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;}
+  
+    .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
