@@ -7,9 +7,14 @@ body {
     font-style: italic;
 }
 
-.intro {
+.intro1 {
     font-family: perpetua;
-    font-size: large;
+    font-size: medium;
+}
+
+.intro2 {
+    font-family: perpetua;
+    font-size: medium;
 }
 
 .skills {
