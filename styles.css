@@ -1,37 +1,46 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .title {
     text-align: center;
     font-style: italic;
-    text-decoration-color: rgb(255, 255, 255);
 }
 
 .intro {
     font-family: perpetua;
-    color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: large;
 }
 
 .skills {
-    color: rgb(255, 255, 255);
+    font-size: large;
 }
 
 .header {
-    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .contact {
-    color: rgb(255, 255, 255);
-}
-.aboutme{
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
+    font-size: large;
 }
 
-#pyth {
-    width: 400px;
-    height: auto;
+.aboutme{
+    font-size: larger;
 }
+
+.dmt{
+    font-size: small;
+}
+
+body {
+    background-color: #efefef;
+    color: black;
+}
+
+/*@media (prefers-color-scheme: dark){
+    body {
+        background-color: #131313;
+        color: white;
+    }
+}
+*/
