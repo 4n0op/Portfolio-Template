@@ -5,21 +5,26 @@ body {
 .title {
     text-align: center;
     font-style: italic;
+    font-size: 60px;
 }
 
 .aboutme {
-    border-top: 4px solid black;
     display: block;
 }
 
+.line {
+    font-size: 100px;
+}
+
 .about-title {
-    font-size: larger;
+    font-size: 50px;
     font-style: italic;
+    text-align: center;
 }
 
 .intro1 {
-    font-family: cursive;
-    font-size: xx-large;
+    font-family: perpetua;
+    font-size: 30px;
 }
 
 .intro2 {
