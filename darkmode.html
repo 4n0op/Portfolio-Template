@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>  
+      <h4 class="switchtext">Dark and Light Mode Switch</h4>  
+        <button onclick="darkMode()">Dark Mode</button>
+        <button onclick="lightMode()">Light Mode</button>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("dmt");
+            element.className = "dark-mode";
+          }
+          function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("dmt");
+            element.className = "light-mode";
+          }
+        </script>
+      </body>
+    </html>

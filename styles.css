@@ -7,18 +7,34 @@ body {
     font-style: italic;
 }
 
+.aboutme {
+    border-top: 4px solid black;
+    display: block;
+}
+
+.about-title {
+    font-size: larger;
+    font-style: italic;
+}
+
 .intro1 {
-    font-family: perpetua;
-    font-size: medium;
+    font-family: cursive;
+    font-size: xx-large;
 }
 
 .intro2 {
     font-family: perpetua;
-    font-size: medium;
+    font-size: large;
 }
 
 .skills {
     font-size: large;
+    font-style: italic;  
+}
+
+.skillslist {
+    font-style: arial;
+    font-size: medium;
 }
 
 .header {
@@ -27,14 +43,20 @@ body {
 
 .contact {
     font-size: large;
+    font-style: italic;
 }
 
-.aboutme{
-    font-size: larger;
+.contactlist {
+    font-size: medium;
 }
 
-.dmt{
+.dmt {
     font-size: small;
+}
+
+.switchtext {
+    font-size: smaller;
+    font-style: italic;
 }
 
 body {
