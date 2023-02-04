@@ -1,12 +1,40 @@
+/*
+
+FULL PAGE COLOR
+
+*/
+
 body {
     background-color: rgb(255, 255, 255);
 }
+
+/*
+
+HEADER
+
+*/
+
+.header {
+    text-align: center;
+}
+
+/*
+
+TITLE
+
+*/
 
 .title {
     text-align: center;
     font-style: italic;
     font-size: 60px;
 }
+
+/*
+
+ABOUT ME
+
+*/
 
 .aboutme {
     display: block;
@@ -16,7 +44,7 @@ body {
     font-size: 100px;
 }
 
-.about-title {
+.abouttitle {
     font-size: 50px;
     font-style: italic;
     text-align: center;
@@ -32,7 +60,13 @@ body {
     font-size: large;
 }
 
-.skills {
+/*
+
+SKILLS
+
+*/
+
+.skillstitle {
     font-size: large;
     font-style: italic;  
 }
@@ -42,8 +76,19 @@ body {
     font-size: medium;
 }
 
-.header {
-    text-align: center;
+/* 
+
+PROJECTS
+
+*/
+
+.projecttitle {
+    font-style: 1000px;
+    font-style: italic;
+}
+
+.projects {
+    font-style: small;
 }
 
 .contact {
