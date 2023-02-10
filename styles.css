@@ -4,10 +4,6 @@ FULL PAGE COLOR
 
 */
 
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 /*
 
 HEADER
@@ -15,7 +11,7 @@ HEADER
 */
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 /*
@@ -25,9 +21,9 @@ TITLE
 */
 
 .title {
-    text-align: center;
-    font-style: italic;
-    font-size: 60px;
+  text-align: center;
+  font-style: italic;
+  font-size: 60px;
 }
 
 /*
@@ -37,27 +33,27 @@ ABOUT ME
 */
 
 .aboutme {
-    display: block;
+  display: block;
 }
 
 .line {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 .abouttitle {
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
 }
 
 .intro1 {
-    font-family: perpetua;
-    font-size: 30px;
+  font-family: perpetua;
+  font-size: 30px;
 }
 
 .intro2 {
-    font-family: perpetua;
-    font-size: large;
+  font-family: perpetua;
+  font-size: large;
 }
 
 /*
@@ -67,13 +63,13 @@ SKILLS
 */
 
 .skillstitle {
-    font-size: large;
-    font-style: italic;  
+  font-size: large;
+  font-style: italic;
 }
 
 .skillslist {
-    font-style: arial;
-    font-size: medium;
+  font-style: arial;
+  font-size: medium;
 }
 
 /* 
@@ -83,49 +79,103 @@ PROJECTS
 */
 
 .projecttitle {
-    font-style: 1000px;
-    font-style: italic;
+  font-style: 1000px;
+  font-style: italic;
 }
 
 .projects {
-    font-style: small;
+  font-style: small;
 }
 
+/*
+
+CONTACTS
+
+*/
+
 .contact {
-    font-size: large;
-    font-style: italic;
+  font-size: large;
+  font-style: italic;
 }
 
 .contactlist {
-    font-size: medium;
+  font-size: medium;
 }
 
+/* 
+
+DARK & LIGHT MODE
+
+*/
+
 .dmt {
-    font-size: small;
+  font-size: small;
 }
 
 .switchtext {
-    font-size: smaller;
-    font-style: italic;
+  font-size: smaller;
+  font-style: italic;
 }
 
 body {
-    background-color: #efefef;
-    color: black;
+  background-color: #efefef;
+  color: black;
 }
 
 body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;}
-  
-    .dark-mode {
-    background-color: black;
-    color: white;
+  padding: 25px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+} 
+
+body {
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
   }
   
-  .light-mode {
-    background-color: white;
-    color: black;
+  h1 {
+    line-height: 1.25;
+    margin: 2em 0 0;
+  }
+  p {
+    margin: .5em 0;
+  }
+  
+  #switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+  }
+  
+  #grayButton {
+    background: gray;
+  }
+  #whiteButton {
+    background: white;
+  }
+  #redButton{
+    background: red;
   }
