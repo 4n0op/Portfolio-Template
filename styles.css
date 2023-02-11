@@ -47,12 +47,10 @@ ABOUT ME
 }
 
 .intro1 {
-  font-family: perpetua;
   font-size: 30px;
 }
 
 .intro2 {
-  font-family: perpetua;
   font-size: large;
 }
 
@@ -79,12 +77,16 @@ PROJECTS
 */
 
 .projecttitle {
-  font-style: 1000px;
+  font-style: large;
   font-style: italic;
 }
 
 .projects {
   font-style: small;
+}
+
+a:link {
+  color: white;
 }
 
 /*
@@ -102,42 +104,11 @@ CONTACTS
   font-size: medium;
 }
 
-/* 
+/*
 
-DARK & LIGHT MODE
+LINE
 
 */
-
-.dmt {
-  font-size: small;
-}
-
-.switchtext {
-  font-size: smaller;
-  font-style: italic;
-}
-
-body {
-  background-color: #efefef;
-  color: black;
-}
-
-body {
-  padding: 25px;
-  background-color: var(--primary-bg-color);
-  color: var(--primary-color);
-  font-size: 25px;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-} 
 
 body {
     margin: 3em;
@@ -169,13 +140,35 @@ body {
     border-radius: 30px;
     border: 3px solid black;
   }
-  
-  #grayButton {
-    background: gray;
-  }
+
+/* 
+
+BACKGROUND AND TEXT SWITCHER
+
+*/
+
   #whiteButton {
     background: white;
+  }
+  #blackButton {
+    background: black;
+  }
+  #grayButton {
+    background: gray;
   }
   #redButton{
     background: red;
   }
+  #blueButton{
+    background: blue;
+  }
+  #greenButton{
+    background: green;
+  }
+  #purpleButton{
+    background: purple;
+  }
+  .snake{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

@@ -17,14 +17,15 @@ CODE STARTS
 
 -->
 <ul id="switcher">
-  <li id="grayButton"></li>
-  <li id="whiteButton"></li>
-  <li id="redButton"></li>
+  <li id="whiteButton" onclick="switchWhite()"></li>
+  <li id="blackButton" onclick="switchBlack()"></li>
+  <li id="grayButton" onclick="switchGray()"></li>
+  <li id="redButton" onclick="switchRed()"></li>
+  <li id="blueButton" onclick="switchBlue()"></li>
+  <li id="greenButton" onclick="switchGreen()"></li>
+  <li id="purpleButton" onclick="switchPurple()"></li>
+  <h1>Color Scheme Switcher</h1>
 </ul>
-
-<h1>Color Scheme Switcher</h1>
-
-<p>Try clicking on one of the colors above to change the colors on this page!</p>
 <!--
 
 CODE ENDS
@@ -66,8 +67,8 @@ CODE ENDS
     </div>
     <div class="projects">
     <ul>
-      <li><a href="https://linkforlater">Updating</a></li>
-      <li><a href="https://link for later">Updating</a></li>
+      <li><a href="https://linkforlater">Anoop's Résumé (Updating)</a></li>
+      <li><a href="https://link for later">Anoop's Cover Letter (Updating)</a></li>
     </ul>
     </div>
     <div class="contact">
@@ -77,26 +78,19 @@ CODE ENDS
         <ul>
         <li>Email: anoop.reddy50@gmail.com</li>
         <li>Phone #: +(1)732-823-2134</li>
-        <li>GitHub: 4n0op</li>
+        <li>GitHub: Anoop Reddy - 4n0op</li>
         <li>Discord: Narcissist;/ #8953</li>
     </ul>
-    </div>
-    <h4 class="switchtext">Dark and Light Mode Switch</h4>  
-        <button onclick="darkMode()">Dark Mode</button>
-        <button onclick="lightMode()">Light Mode</button>
-        <script>
-          function darkMode() {
-            var element = document.body;
-            var content = document.getElementById("dmt");
-            element.className = "dark-mode";
-          }
-          function lightMode() {
-            var element = document.body;
-            var content = document.getElementById("dmt");
-            element.className = "light-mode";
-          }
-        </script>
-        <a href="https://youtube.com" target="_blank">Anoop's Résumé</a>
-        <span data-bg-color="#b84130" data-color="#ffffff"></span>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Snake</title>
+        <link rel="stylesheet" href="snake.css">
+        <script src="snake.js"></script>
+    </head>
+
+    <body>
+        <div class=-"snake"><h1>Snake</h1></div>
+        <canvas id="board"></canvas>
+    </body>
 </html>
