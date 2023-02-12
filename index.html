@@ -11,6 +11,20 @@
     <title>Inserting a GIF</title>
 </head>
 <body id="all">
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#ttle">Title</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skillstitle">Skills</a></li>
+        <li><a href="#projecttitle">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <div id="fixed-bar">
+      <p>This is a fixed bar</p>
+    </div>    
+  </header>  
 <!--
 
 CODE STARTS
@@ -24,7 +38,6 @@ CODE STARTS
   <li id="blueButton" onclick="switchBlue()"></li>
   <li id="greenButton" onclick="switchGreen()"></li>
   <li id="purpleButton" onclick="switchPurple()"></li>
-  <h1>Color Scheme Switcher</h1>
 </ul>
 <!--
 
@@ -32,12 +45,12 @@ CODE ENDS
 
 -->
 
-    <div class="header">
-        <h1 class="title">Anoop R.</h1>
+    <div id="header">
+        <h1 class="title" id="ttle">Anoop R.</h1>
         <img src="images.jpeg">
     </div>
     <hr class="line"/>
-  <div class="aboutme">  
+  <div class="aboutme" id="about">  
     <div>
         <h3 class="abouttitle">About:</h2>
         <h4 class="intro1">Passion for Computer Science and Robotics.</h4>  
@@ -45,10 +58,10 @@ CODE ENDS
         <text></text>
     </div>
   </div>
-    <div class="skillstitle">
+    <div id="skillstitle">
     <h2>Skills</h2>
     </div>
-    <div class="skillslist">
+    <div id="skillslist">
         <li>Machine Learning</li>
         <li>Robotics</li>
         <li>JavaScript</li>
@@ -62,7 +75,7 @@ CODE ENDS
         <img src="python.gif" style="width:10em; height:10em;">
     </ul>
     </div>
-    <div class="projecttitle">
+    <div id="projecttitle">
       <h2>Projects</h2>
     </div>
     <div class="projects">
@@ -71,8 +84,8 @@ CODE ENDS
       <li><a href="https://link for later">Anoop's Cover Letter (Updating)</a></li>
     </ul>
     </div>
-    <div class="contact">
-    <h2>Contact Me</h2>
+    <div id="contacts">
+    <h2>Contacts</h2>
     </div>
     <div class="contactlist">
         <ul>
@@ -81,16 +94,3 @@ CODE ENDS
         <li>GitHub: Anoop Reddy - 4n0op</li>
         <li>Discord: Narcissist;/ #8953</li>
     </ul>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport", content="width=device-width, initial-scale=1.0">
-        <title>Snake</title>
-        <link rel="stylesheet" href="snake.css">
-        <script src="snake.js"></script>
-    </head>
-
-    <body>
-        <div class=-"snake"><h1>Snake</h1></div>
-        <canvas id="board"></canvas>
-    </body>
-</html>

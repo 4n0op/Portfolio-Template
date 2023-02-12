@@ -1,16 +1,85 @@
 /*
 
-FULL PAGE COLOR
-
-*/
-
-/*
-
 HEADER
 
 */
 
-.header {
+#header {
+  font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+}
+
+/*
+
+NAVIGATION BAR
+
+*/
+
+navbar {
+  background-color: black;
+  padding: 20px 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar .burger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+  }
+
+  #navbar a {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #navbar .burger {
+    display: block;
+  }
+}
+
+#fixed-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightgray;
+  padding: 10px;
   text-align: center;
 }
 
@@ -20,10 +89,11 @@ TITLE
 
 */
 
-.title {
+#ttle {
   text-align: center;
   font-style: italic;
   font-size: 60px;
+  margin-top: 0px;
 }
 
 /*
@@ -32,7 +102,7 @@ ABOUT ME
 
 */
 
-.aboutme {
+#aboutme {
   display: block;
 }
 
@@ -60,12 +130,13 @@ SKILLS
 
 */
 
-.skillstitle {
-  font-size: large;
+#skillstitle {
+  font-size: 35px;
   font-style: italic;
+  text-align: center;
 }
 
-.skillslist {
+#skillslist {
   font-style: arial;
   font-size: medium;
 }
@@ -76,17 +147,14 @@ PROJECTS
 
 */
 
-.projecttitle {
-  font-style: large;
+#projecttitle {
+  font-size: 35px;
   font-style: italic;
+  text-align: center;
 }
 
 .projects {
   font-style: small;
-}
-
-a:link {
-  color: white;
 }
 
 /*
@@ -95,9 +163,10 @@ CONTACTS
 
 */
 
-.contact {
-  font-size: large;
+#contacts {
+  font-size: 35px;
   font-style: italic;
+  text-align: center;
 }
 
 .contactlist {
@@ -111,7 +180,7 @@ LINE
 */
 
 body {
-    margin: 3em;
+    /* margin: 3em; */
     padding: 0;
     font-family: sans-serif;
     font-size: 18px;
@@ -136,7 +205,7 @@ body {
     float: left;
     width: 30px;
     height: 30px;
-    margin: 0 15px 15px 0;
+    margin: 100px 15px 15px 0;
     border-radius: 30px;
     border: 3px solid black;
   }
@@ -168,7 +237,3 @@ BACKGROUND AND TEXT SWITCHER
   #purpleButton{
     background: purple;
   }
-  .snake{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
