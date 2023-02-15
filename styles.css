@@ -26,6 +26,7 @@ navbar {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  font-style: italic;
 }
 
 #navbar ul {
@@ -73,12 +74,19 @@ navbar {
   }
 }
 
+/*
+
+FIXED BAR
+
+*/
+
 #fixed-bar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: lightgray;
+  height: 28px;
+  background-color: silver;
   padding: 10px;
   text-align: center;
 }
@@ -116,12 +124,25 @@ ABOUT ME
   text-align: center;
 }
 
+/*
+
+INTROS
+
+*/
+
 .intro1 {
   font-size: 30px;
+  text-align: center;
 }
 
 .intro2 {
   font-size: large;
+  text-align: center;
+}
+
+.intro3 {
+  font-size: large;
+  text-align: center;
 }
 
 /*
@@ -138,7 +159,7 @@ SKILLS
 
 #skillslist {
   font-style: arial;
-  font-size: medium;
+  font-size: 20px;
 }
 
 /* 
@@ -154,7 +175,7 @@ PROJECTS
 }
 
 .projects {
-  font-style: small;
+  font-size: 20px;
 }
 
 /*
@@ -170,7 +191,7 @@ CONTACTS
 }
 
 .contactlist {
-  font-size: medium;
+  font-size: 20px;
 }
 
 /*
@@ -207,7 +228,7 @@ body {
     height: 30px;
     margin: 100px 15px 15px 0;
     border-radius: 30px;
-    border: 3px solid black;
+    border: 3px solid;
   }
 
 /* 
