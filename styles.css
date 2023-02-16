@@ -80,12 +80,12 @@ FIXED BAR
 
 */
 
-#fixed-bar {
+#fixedbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 28px;
+  height: 34px;
   background-color: silver;
   padding: 10px;
   text-align: center;
@@ -246,6 +246,9 @@ BACKGROUND AND TEXT SWITCHER
   #grayButton {
     background: gray;
   }
+  #dsgrayButton{
+    background: darkslategray;
+  }
   #redButton{
     background: red;
   }
@@ -257,4 +260,19 @@ BACKGROUND AND TEXT SWITCHER
   }
   #purpleButton{
     background: purple;
+  }
+  #navyButton{
+    background: navy
+  }
+  #tealButton{
+    background: teal
+  }
+  #fuchsiaButton{
+    background: fuchsia;
+  }
+  #oliveButton{
+    background: olive;
+  }
+  #brownButton{
+    background: brown
   }
