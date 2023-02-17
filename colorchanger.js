@@ -285,7 +285,7 @@ function switchDSGray() {
 }
 
 function switchBrown() {
-  document.body.style.backgroundColor = 'brown';
+  document.body.style.backgroundColor = 'brown  ';
   document.body.style.color = 'white';
   blackbutton.style['border-color'] = 'white';
   grayButton.style['border-color'] = 'gray';

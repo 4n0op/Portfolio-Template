@@ -19,4 +19,4 @@ window.onscroll = function() {
     } else {
       fixedBar.style.display = "block";
     }
-  };
+  };a

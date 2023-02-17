@@ -85,8 +85,8 @@ FIXED BAR
   top: 0;
   left: 0;
   right: 0;
-  height: 34px;
-  background-color: silver;
+  height: 33px;
+  background-color: gray;
   padding: 10px;
   text-align: center;
 }
