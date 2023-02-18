@@ -2,7 +2,7 @@ var obj = {};
 
 obj.reset = function()
 {
-    alert(document.querySelector("#name").innerHTML + "Game Over! You DIED!")
+    alert(document.querySelector("#name").innerHTML + " Game Over! You DIED!")
     for(i=0;i<robots.length;i++)
     {
         robots[i].style.top = 9+"vh"

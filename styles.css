@@ -196,8 +196,19 @@ CONTACTS
   font-weight: bold;
 }
 
+/*
+
+LISTS
+
+*/
+
 li {
   list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 /*
@@ -291,35 +302,35 @@ LINE
 */
 
 body {
-    /* margin: 3em; */
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  h1 {
-    line-height: 1.25;
-    margin: 2em 0 0;
-  }
-  p {
-    margin: .5em 0;
-  }
-  
-  #switcher {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  #switcher li {
-    float: left;
-    width: 30px;
-    height: 30px;
-    margin: 100px 15px 15px 0;
-    border-radius: 30px;
-    border: 3px solid;
-  }
+  /* margin: 3em; */
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  line-height: 1.25;
+  margin: 2em 0 0;
+}
+p {
+  margin: 0.5em 0;
+}
+
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 100px 15px 15px 0;
+  border-radius: 30px;
+  border: 3px solid;
+}
 
 /* 
 
@@ -327,42 +338,42 @@ BACKGROUND AND TEXT SWITCHER
 
 */
 
-  #whiteButton {
-    background: white;
-  }
-  #blackButton {
-    background: black;
-  }
-  #skyButton {
-    background: #b0e0e6;
-  }
-  #dsgrayButton{
-    background: darkslategray;
-  }
-  #salmonButton{
-    background: #FA8072;
-  }
-  #mintButton{
-    background: #AAF0C1;
-  }
-  #greenButton{
-    background: #478778;
-  }
-  #purpleButton{
-    background: #6B5876;
-  }
-  #navyButton{
-    background: #34568B;
-  }
-  #tealButton{
-    background: teal;
-  }
-  #yellowButton{
-    background: #FDDA0D;
-  }
-  #orangeButton{
-    background: #FF7518;
-  }
-  #brownButton{
-    background: brown;
-  }
+#whiteButton {
+  background: white;
+}
+#blackButton {
+  background: black;
+}
+#skyButton {
+  background: #b0e0e6;
+}
+#dsgrayButton {
+  background: darkslategray;
+}
+#salmonButton {
+  background: #fa8072;
+}
+#mintButton {
+  background: #aaf0c1;
+}
+#greenButton {
+  background: #478778;
+}
+#purpleButton {
+  background: #6b5876;
+}
+#navyButton {
+  background: #34568b;
+}
+#tealButton {
+  background: teal;
+}
+#yellowButton {
+  background: #fdda0d;
+}
+#orangeButton {
+  background: #ff7518;
+}
+#brownButton {
+  background: brown;
+}
