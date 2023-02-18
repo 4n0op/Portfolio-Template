@@ -160,6 +160,7 @@ SKILLS
 #skillslist {
   font-style: arial;
   font-size: 20px;
+  font-weight: bold;
 }
 
 /* 
@@ -192,6 +193,95 @@ CONTACTS
 
 .contactlist {
   font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*
+
+GMAIL LOGO
+
+*/
+
+.image-sentence-container1 {
+  display: flex;
+  align-items: center;
+}
+
+.image-sentence-container1 img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.image-sentence-container1 p {
+  margin: 0;
+}
+
+/*
+
+PHONE LOGO
+
+*/
+
+.image-sentence-container2 {
+  display: flex;
+  align-items: center;
+}
+
+.image-sentence-container2 img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.image-sentence-container2 p {
+  margin: 0;
+}
+
+/*
+
+GITHUB LOGO
+
+*/
+
+.image-sentence-container3 {
+  display: flex;
+  align-items: center;
+}
+
+.image-sentence-container3 img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.image-sentence-container3 p {
+  margin: 0;
+}
+
+/*
+
+DISCORD LOGO
+
+*/
+
+.image-sentence-container4 {
+  display: flex;
+  align-items: center;
+}
+
+.image-sentence-container4 img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.image-sentence-container4 p {
+  margin: 0;
 }
 
 /*
@@ -243,36 +333,36 @@ BACKGROUND AND TEXT SWITCHER
   #blackButton {
     background: black;
   }
-  #grayButton {
-    background: gray;
+  #skyButton {
+    background: #b0e0e6;
   }
   #dsgrayButton{
     background: darkslategray;
   }
-  #redButton{
-    background: red;
+  #salmonButton{
+    background: #FA8072;
   }
-  #blueButton{
-    background: blue;
+  #mintButton{
+    background: #AAF0C1;
   }
   #greenButton{
-    background: green;
+    background: #478778;
   }
   #purpleButton{
-    background: purple;
+    background: #6B5876;
   }
   #navyButton{
-    background: navy
+    background: #34568B;
   }
   #tealButton{
-    background: teal
+    background: teal;
   }
-  #fuchsiaButton{
-    background: fuchsia;
+  #yellowButton{
+    background: #FDDA0D;
   }
-  #oliveButton{
-    background: olive;
+  #orangeButton{
+    background: #FF7518;
   }
   #brownButton{
-    background: brown
+    background: brown;
   }
