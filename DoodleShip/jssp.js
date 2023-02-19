@@ -117,4 +117,3 @@ spaceship = document.querySelector("#player");
 
 window.addEventListener("keypress",obj.f,false)
 
-window.location.href = "doodleship.html";
